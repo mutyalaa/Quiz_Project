@@ -1,0 +1,117 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; 
+}
+
+
+.user-profile-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 15px; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  text-align: center; 
+}
+
+
+.user-portal-heading {
+  font-size: 26px; 
+  color: #333; 
+  margin-bottom: 5px; 
+}
+
+.user-welcome-heading {
+  font-size: 22px;
+  color: #3498db; 
+  margin-bottom: 15px; 
+}
+
+
+.user-info {
+  font-size: 14px; 
+  color: #555; 
+  margin: 8px 0; 
+}
+
+
+.user-profile-image {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: 15px 0; 
+  border: 3px solid #3498db; 
+}
+
+
+.user-nav {
+  margin-top: 20px; 
+}
+
+.user-nav ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+
+.user-quiz-button {
+  background-color: #3498db; 
+  color: white; 
+  padding: 10px 15px; 
+  font-size: 14px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s; 
+  width: 100%; 
+}
+
+.user-quiz-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-1px); 
+}
+
+
+.user-logout-link {
+  display: inline-block; 
+  margin-top: 12px; 
+  color: #e74c3c; 
+  font-size: 14px; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.user-logout-link:hover {
+  color: #ff7675; 
+}
+
+
+@media (max-width: 768px) {
+  .user-profile-container {
+    padding: 15px; 
+    width: 90%; 
+  }
+
+  .user-portal-heading {
+    font-size: 22px; 
+  }
+
+  .user-welcome-heading {
+    font-size: 20px; 
+  }
+
+  .user-info {
+    font-size: 12px; 
+  }
+
+  .user-quiz-button {
+    font-size: 12px; 
+    padding: 8px; 
+  }
+
+  .user-logout-link {
+    font-size: 12px; 
+  }
+}

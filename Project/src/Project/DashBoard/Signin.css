@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .login-container {
+    background-color: #fff; 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    text-align: center; 
+  }
+  
+
+  .login-title {
+    font-size: 32px;
+    color: #333; 
+    margin-bottom: 30px; 
+    font-weight: 600;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); 
+  }
+  
+  
+  .form-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .form-btn:hover {
+    background-color: #0056b3; 
+  }
+  
+  .form-btn:active {
+    transform: translateY(2px); 
+  }
+  
+  /* Create Account Button */
+  .create-account-btn {
+    background-color: #28a745; 
+    margin-top: 15px;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #218838; 
+  }
+  
+  .create-account-btn:active {
+    transform: translateY(2px); 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%; 
+      padding: 30px;
+    }
+  
+    .login-title {
+      font-size: 28px; 
+    }
+  
+    .form-input {
+      padding: 8px; 
+    }
+  
+    .form-btn {
+      font-size: 15px;
+    }
+  }
+  

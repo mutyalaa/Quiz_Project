@@ -1,0 +1,297 @@
+{
+  "images": [
+    {
+      "id": "R0329",
+      "name": "AnilKumar",
+      "email": "anil@gmail.com",
+      "password": "anil",
+      "address": "Hyderabad",
+      "jobId": "9603",
+      "imageUrl": "http://localhost:3000/anil.jpg"
+    },
+    {
+      "id": "R0330",
+      "name": "Shiva",
+      "email": "Shiva@gmail.com",
+      "password": "shiva",
+      "address": "SRNagar",
+      "jobId": "3006",
+      "imageUrl": "http://localhost:3000/shiva.jpg"
+    },
+    {
+      "id": "R0331",
+      "name": "Kumar",
+      "email": "Kumar@gmail.com",
+      "password": "kumar",
+      "address": "Sec",
+      "jobId": "6065",
+      "imageUrl": "http://localhost:3000/kumar.jpg"
+    },
+    {
+      "id": "R0332",
+      "name": "MASK",
+      "email": "mask@gmail.com",
+      "password": "mask",
+      "address": "BHEL",
+      "jobId": "3060",
+      "imageUrl": "http://localhost:3000/mask.jpeg"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "1",
+      "name": "HTML"
+    },
+    {
+      "id": "2",
+      "name": "CSS"
+    },
+    {
+      "id": "3",
+      "name": "REACT"
+    },
+    {
+      "id": "4",
+      "name": "JS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a7fd",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "HTML Means ?",
+          "options": [
+            "Hyper Text markup language",
+            "Hyper Test markup language",
+            "Hyper Text makeup language",
+            "Hype Text markup language"
+          ],
+          "answer": "Hyper Text markup language"
+        }
+      ]
+    },
+    {
+      "id": "0faf",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "How to define P tag in HTML?",
+          "options": [
+            "<p>",
+            "p",
+            "</p>",
+            "<p/>"
+          ],
+          "answer": "<p>"
+        }
+      ]
+    },
+    {
+      "id": "84c7",
+      "technology": "CSS",
+      "questions": [
+        {
+          "question": "full form of css",
+          "options": [
+            "cascadle sheets",
+            "case sheets",
+            "control sheet",
+            "capture sheet"
+          ],
+          "answer": "cascadle sheet"
+        }
+      ]
+    },
+    {
+      "id": "6d7e",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "html",
+          "options": [
+            "yg",
+            "hbh",
+            "jhbh",
+            "gvgv"
+          ],
+          "answer": "gvgv"
+        }
+      ]
+    },
+    {
+      "id": "0447",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "jhbjhbh",
+          "options": [
+            "bjb",
+            "b b ",
+            " m ",
+            "m"
+          ],
+          "answer": "m"
+        },
+        {
+          "question": "jhb nm",
+          "options": [
+            "bn  ",
+            " m ",
+            "b ",
+            "  bjknjk"
+          ],
+          "answer": " m mn "
+        }
+      ]
+    },
+    {
+      "id": "9abd",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "jknjka",
+            "n xnms ",
+            "n sxn",
+            "ns xn"
+          ],
+          "answer": "s xnms "
+        }
+      ]
+    },
+    {
+      "id": "2af7",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "nsxjksk",
+          "options": [
+            "x nm",
+            "xs  ",
+            "NXS ",
+            "S XSN "
+          ],
+          "answer": "XS"
+        }
+      ]
+    },
+    {
+      "id": "e606",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "html jojc",
+          "options": [
+            "hdichih",
+            "cjau",
+            "nchia",
+            "nkchias"
+          ],
+          "answer": "nkchias"
+        }
+      ]
+    },
+    {
+      "id": "1ffa",
+      "technology": "React",
+      "questions": [
+        {
+          "question": "reactjs",
+          "options": [
+            "re",
+            "ac",
+            "js",
+            "opt"
+          ],
+          "answer": "opt"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "f0ef",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    },
+    {
+      "id": "393f",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    },
+    {
+      "id": "5783",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "9701",
+      "name": "AnilKumar",
+      "email": "anil@gmail.com",
+      "password": "anil",
+      "address": "Hyderabad",
+      "imageUrl": "http://localhost:3000/anil.jpg",
+      "score": [],
+      "scores": [
+        {
+          "technology": "CSS",
+          "score": 1,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "CSS",
+          "score": 0,
+          "totalQuestions": 1
+        }
+      ]
+    },
+    {
+      "id": "1299",
+      "name": "Shiva",
+      "email": "Shiva@gmail.com",
+      "password": "shiva",
+      "address": "AP",
+      "imageUrl": "http://localhost:3000/shiva.jpg",
+      "scores": [
+        {
+          "technology": "CSS",
+          "score": 1,
+          "totalQuestions": 1
+        }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "name": "",
+      "score": "",
+      "id": "1ec6"
+    }
+  ]
+}

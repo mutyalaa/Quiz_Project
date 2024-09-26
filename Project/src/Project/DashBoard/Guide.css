@@ -1,0 +1,155 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exam-instructions-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #00509d;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.brand-logo {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.instructions-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  margin-top: 60px; 
+}
+
+.instructions-text {
+  flex: 1;
+}
+
+.instructions-text h1 {
+  font-size: 36px;
+  color: #00509d;
+  margin-bottom: 20px;
+}
+
+.instructions-text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.instructions-text ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.instructions-text ol li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.instructions-text input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.instructions-text label {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.in-btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #00509d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.in-btn:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+
+.in-btn:hover:not(:disabled) {
+  background-color: #0073e6;
+  box-shadow: 0 4px 15px rgba(0, 85, 157, 0.3);
+}
+
+.in-btn:active:not(:disabled) {
+  transform: translateY(3px);
+}
+
+
+.instructions-illustration {
+  flex: 1;
+  text-align: right;
+}
+
+.instructions-illustration img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .instructions-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .instructions-text, .instructions-illustration {
+    text-align: center;
+  }
+
+  .instructions-illustration {
+    margin-top: 20px;
+  }
+
+  .instructions-illustration img {
+    max-width: 300px;
+  }
+}

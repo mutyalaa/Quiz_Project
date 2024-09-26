@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e1e8f0, #c1d6e6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .home-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 60px; 
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .home-title {
+    font-size: 30px; 
+    color: #444; 
+    margin-bottom: 40px; 
+    font-weight: 700;
+  }
+  
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+  }
+  
+ 
+  .role-button {
+    background-color: #4a90e2; 
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s; 
+    width: 100%; 
+    font-weight: 500; 
+  }
+  
+  .role-button:hover {
+    background-color: #357ABD; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .role-button:active {
+    transform: translateY(2px); 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .home-container {
+      width: 90%; 
+      padding: 40px; 
+    }
+  
+    .home-title {
+      font-size: 26px; 
+    }
+  
+    .role-button {
+      font-size: 16px; 
+      padding: 12px;
+    }
+  }
+  
